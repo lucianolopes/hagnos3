@@ -1,0 +1,4 @@
+alguns bugs Hagnos app
+
+- botões de visualizar fispq e boletim amontoados
+- quando clica em visualizar o pdf fispq ou boletim dá mensagem de "sem permissão de escrita"

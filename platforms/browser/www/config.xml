@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="1" id="xdk.intel.blank.ad.template.crosswalk" ios-CFBundleVersion="undefined" version="0.0.1" windows-packageVersion="0.0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Hagnos</name>
+    <description>Template to develop a packaged mobile web app using the App Designer UI editor.</description>
+    <author>Intel XDK</author>
+    <content src="index.html" />
+    <icon density="ldpi" height="36" platform="android" src="package-assets/36x36.png" width="36" />
+    <icon density="mdpi" height="48" platform="android" src="package-assets/48x48.png" width="48" />
+    <icon density="hdpi" height="72" platform="android" src="package-assets/72x72.png" width="72" />
+    <icon density="xhdpi" height="96" platform="android" src="package-assets/96x96.png" width="96" />
+    <config-file mode="merge" parent="/manifest/application" platform="android">
+        <activity android:launchMode="singleTop" />
+    </config-file>
+    <preference name="android-build-tool" value="gradle" />
+    <preference name="phonegap-version" value="cli-6.2.0" />
+    <preference name="xwalkMultipleApk" value="false" />
+    <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect --ignore-gpu-blacklist " />
+</widget>
